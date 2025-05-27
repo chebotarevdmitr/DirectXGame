@@ -134,7 +134,11 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DX3D\Sourse\DX3D\Core\Base.cpp" />
     <ClCompile Include="Game\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DX3D\Include\DX3D\Core\Base.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
